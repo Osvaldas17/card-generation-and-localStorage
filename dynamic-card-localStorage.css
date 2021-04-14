@@ -1,0 +1,57 @@
+* {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+.main-con-sub {
+    background-color: rgb(196,196,196);
+    padding: 15px;
+    margin: 40px;
+    display: flex;
+}
+.form-sub {
+    display: flex;
+    flex-direction: column;
+}
+.main-con-sub input,label {
+    padding: 8px;
+    margin: 8px;
+    outline: none;
+    border-style: none;
+    border-radius: 5px;
+}
+.main-con-sub button {
+    background-color: rgb(190,124,124);
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 0;
+    margin: 8px;
+    width: 170px;
+    border-radius: 5px;
+}
+.main-con-sub button:hover {
+    color: white;
+}
+.abs {
+    position: absolute;
+    font-size: 25px;
+}
+#app {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: monospace;
+    font-size: 22px;
+}
+.p-el {
+}
+.profile-img {
+    width: 200px;
+}

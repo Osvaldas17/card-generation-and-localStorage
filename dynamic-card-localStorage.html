@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="dynamic-card-localStorage.css">
+    <script src="dynamic-card-localStorage.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="main-con-sub">
+        <p class="abs">Card stays in local storage</p>
+        <div class="main-con-sub form-sub">
+            <form id="create-card">
+                <label for="full-name">Full Name</label><br>
+                <input type="text" id="full-name" value=""><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" value=""><br>
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" value=""><br>
+                <label for="address">Address</label><br>
+                <input type="text" id="address" value=""><br>
+                <label for="job">Job/Services</label><br>
+                <input type="text" id="job" value=""><br>
+                <button type="submit">Create card</button>
+            </form>
+            <div class="delete">
+                <button type="button" class="delBtn">Delete</button>
+            </div>
+        </div>
+        <div id="app">
+        </div>
+    </div>
+</body>
+</html>
